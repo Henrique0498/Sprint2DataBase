@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.relational.RelationalDesign>
+   <object objectType="Table" objectID="9FFB5715-2A40-D25A-2925-258921E83A37" name="TB_ACS_MODELO" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.relational.Table" propertyParentId="AFFD9639-CEB4-2862-9E5F-E347DC5A3845" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Table" objectID="3AF6FC8A-C2DA-A54F-58B3-E4D303EBDAE0" name="TB_ACS_ORDEMSERVICO" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.relational.Table" propertyParentId="AFFD9639-CEB4-2862-9E5F-E347DC5A3845" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Table" objectID="BD5DD543-8296-C21F-0457-5D75BED27FCC" name="TB_ACS_VEICULO" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.relational.Table" propertyParentId="AFFD9639-CEB4-2862-9E5F-E347DC5A3845" propertySourceId="" propertyTargetId=""/>
+   <object objectType="FKIndexAssociation" objectID="27779C3C-4C88-C9D0-0443-FC7EFF890FF0" name="tb_acs_modelo_tb_acs_veiculo_id_veiculo" seqName="seg_0" containerID="9FFB5715-2A40-D25A-2925-258921E83A37" refContainerID="BD5DD543-8296-C21F-0457-5D75BED27FCC" propertyClassName="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" propertyParentId="AFFD9639-CEB4-2862-9E5F-E347DC5A3845" propertySourceId="BD5DD543-8296-C21F-0457-5D75BED27FCC" propertyTargetId="9FFB5715-2A40-D25A-2925-258921E83A37"/>
+</oracle.dbtools.crest.model.design.relational.RelationalDesign>
